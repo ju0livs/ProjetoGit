@@ -34,7 +34,7 @@ p {
 .logosite {
   width: 90px;
   display: flex;
-  
+
 }
 
 @media all and(max-width: 699px) {
