@@ -1,22 +1,3 @@
-html,
-body {
-  min-height: 100%;
-  background-color: #FFFAEB;
-  margin: 0;
-}
-
-li {
-  text-decoration: none;
-  color: white;
-  list-style: none;
-  display: inline-block;
-}
-
-li:hover {
-  color: #F63A61;
-  font-weight: bold;
-}
-
 
 p {
 
@@ -25,124 +6,39 @@ p {
   font-family: 'Josefin Sans', cursive;
   font-size: x-large;
   text-align: right;
-  margin-left: 500px;
-  margin-right: 150px;
-  margin-top: 0px;
-
-}
-
-.logosite {
-  width: 90px;
-  display: flex;
-
-}
-
-@media all and(max-width: 699px) {
-
-  .logosite {
-    width: 10px;
-  }
-
-  .computador {
-    width: 10px;
-  }
-
-  nav {
-    font-size: 10px;
-  }
-
-  h1 {
-    font-size: 10px;
-  }
-
-  p {
-    font-size: 8px;
-  }
-
-}
-
-@media all and(min-width: 700px) {
-
-  .logosite {
-    width: 40px;
-  }
-
-  .computador {
-    width: 40px;
-  }
-
-  nav {
-    font-size: medium;
-  }
-
-  h1 {
-    font-size: medium;
-  }
-
-  p {
-    font-size: medium;
-  }
-
-}
-
-@media all and(min-width: 1200px) {
-
-  .logosite {
-    width: 60px;
-  }
-
-  .computador {
-    width: 60px;
-  }
-
-  nav {
-    font-size: larger;
-  }
-
-  h1 {
-    font-size: larger;
-  }
-
-  p {
-    font-size: larger;
-  }
+  margin-left: 30px;
+  margin-right: 30px;
+ padding: 2px;
 
 }
 
 .computador {
 
-  position: relative;
-  margin-left: 150px;
-  margin-top: 100px;
+  margin-left: 30px;
+ 
 
 }
 
-nav {
-  font-family: 'Josefin Sans', cursiva;
-  color: white;
-  background: linear-gradient(90deg, rgb(73, 152, 243), rgb(234, 192, 249), rgb(140, 27, 189));
-  font-size: large;
-  text-align: center;
-  padding: 40px;
-  margin: 0px;
-  display: row;
+.descricao{
+  display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  top: 0px;
-
 }
-
-nav::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  height: 2px;
-}
-
 
 h1 {
   color: #F63A61;
   font-family: 'Josefin Sans', cursiva;
   padding: 0.15em 0.15em 0.15em 1em;
   text-align: center;
+}
+
+@media all and (max-width: 500px) {
+
+  .descricao {
+    flex-direction: column;
+    align-items: center;
+  }
+  p{
+    text-align: justify;
+  }
+
 }
