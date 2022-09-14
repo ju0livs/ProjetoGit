@@ -1,5 +1,5 @@
 
-p {
+.apresentacao {
   background-color: white;
   color: #F63A61;
   font-family: 'Josefin Sans', cursive;
@@ -32,7 +32,7 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
-  p{
+  .apresentacao{
     text-align: justify;
   }
 
