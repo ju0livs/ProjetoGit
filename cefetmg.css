@@ -1,9 +1,9 @@
 h1 {
-    color: #F63A61;
-    font-family: 'Josefin Sans', cursiva;
-    padding: 0.15em 0.15em 0.15em 1em;
-    text-align: center;
-  }
+  color: #F63A61;
+  font-family: 'Josefin Sans', cursiva;
+  padding: 0.15em 0.15em 0.15em 1em;
+  text-align: center;
+}
 
 .conteudo {
   font-family: 'Josefin Sans', cursive;
@@ -26,9 +26,40 @@ p {
 a {
   text-decoration: none;
   color: #F63A61;
- }
+}
 
- a:hover {
+a:hover {
   color: #F63A61;
   font-weight: bold;
-  }
+}
+
+.desenvolvimento {
+  width: 120px;
+}
+
+.informatica {
+  width: 150px;
+}
+
+.informaticaparainternet {
+  width: 150px;
+}
+
+.redes {
+  width: 150px;
+}
+
+.engenhariadecomputacao {
+  width: 150px;
+}
+
+.imagens-cursos {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #F63A61;
+  font-family: 'Josefin Sans', cursiva;
+  font-size: larger;
+}

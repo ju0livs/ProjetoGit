@@ -4,53 +4,65 @@ body {
   background-color: #FFFAEB;
   margin: 0;
 }
+
 header {
-background: linear-gradient(90deg, rgb(73, 152, 243), rgb(198, 61, 248), rgb(140, 27, 189));
-box-shadow: #0002 0px 4px 5px;
-display: flex;
-justify-content: center;
-padding: 15px;
-flex-wrap: wrap;
-flex-direction: row;
-}  
+  background: linear-gradient(90deg, rgb(73, 152, 243), rgb(198, 61, 248), rgb(140, 27, 189));
+  box-shadow: #0002 0px 4px 5px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 #menu-principal ul {
   padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 #menu-principal li {
-list-style: none;
-}  
+  list-style: none;
+  padding: 0 7px;
+}
+
 #menu-principal a {
-text-decoration: none;
-color: white;
-} 
+  text-decoration: none;
+  color: white;
+}
+
 #menu-principal a:hover {
-color: #fbfbfb;
-font-weight: bold;
+  color: #fbfbfb;
+  font-weight: bold;
 }
+
 .logosite {
-width: 90px;
-border-radius: 50%;
-border: 1px dashed #F63A61;
-padding: 8px;
-filter: hue-rotate(228deg);
-background-image: linear-gradient(120deg, #ffffff70, #ffffff00);  
+  width: 90px;
+  border-radius: 50%;
+  border: 1px dashed #F63A61;
+  padding: 8px;
+  filter: hue-rotate(228deg);
+  background-image: linear-gradient(120deg, #ffffff70, #ffffff00);
 }
+
 #menu-principal {
-font-family: 'Josefin Sans', cursiva;
-color: white;
-font-size: large;
-text-align: center;
-padding: 14px;
-margin: 0px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-overflow: hidden;   
-}      
+  font-family: 'Josefin Sans', cursiva;
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding: 14px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 #menu-principal::after {
-width: 100%;
-height: 2px;
+  width: 100%;
+  height: 2px;
 }
 
 @media all and (max-width: 500px) {
@@ -60,10 +72,13 @@ height: 2px;
     align-items: center;
 
   }
-  #menu-principal ul{
+
+  #menu-principal ul {
     padding-left: 0;
+
   }
-  #menu-principal li{
+
+  #menu-principal li {
     padding: 0 10px;
   }
- }
+}
