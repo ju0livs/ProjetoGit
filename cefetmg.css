@@ -97,6 +97,7 @@ a {
   text-align: center;
   padding: 0.5em;
   flex-direction: column;
+  width: 200px;
 }
 
 .desenvolvimento-de-sistemas:hover,
