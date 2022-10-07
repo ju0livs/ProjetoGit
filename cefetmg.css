@@ -21,7 +21,7 @@ h2 {
 
 p {
   padding: 15px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: OCR A Std, monospace;
   color: black;
   font-size: x-large;
 }
@@ -33,7 +33,7 @@ ul {
 
 li {
   font-size: 14px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: OCR A Std, monospace;
   list-style: none;
   text-align: center;
 }
