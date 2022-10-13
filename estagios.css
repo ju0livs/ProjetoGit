@@ -1,0 +1,61 @@
+main {
+  display: flex;
+}
+
+.empresa1 {
+  background-color: lightblue;
+  flex-direction: row;
+  border: 1px solid pink;
+  text-align: justify;
+  padding: 0.5em;
+  width: 1180px;
+  margin: 30px;
+}
+
+.empresa2 {
+  background-color: lightblue;
+  flex-direction: row-reverse;
+  border: 1px solid pink;
+  text-align: justify;
+  padding: 0.5em;
+  width: 1180px;
+  margin: 30px;
+}
+
+h1 {
+  color: #F63A61;
+  font-family: 'Josefin Sans', cursiva;
+  padding: 0.15em 0.15em 0.15em 1em;
+  text-align: center;
+}
+
+p {
+  padding: 12px;
+  font-family: OCR A Std, monospace;
+  color: black;
+  font-size: x-large;
+}
+
+h2 {
+  font-family: 'Josefin Sans', cursiva;
+  text-decoration: none;
+  color: #F63A61;
+  text-align: center;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.pinicial {
+  padding: 0.5em;
+  flex-direction: column;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 300px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #0003;
+}
